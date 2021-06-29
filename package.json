@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_vue",
+  "version": "1.0.0",
+  "description": "Vue.jsを用いたポートフォリオ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PROFILE=local nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-0929/portfolio_vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk-0929/portfolio_vue/issues"
+  },
+  "homepage": "https://github.com/mk-0929/portfolio_vue#readme",
+  "dependencies": {
+    "nuxt": "^2.15.7"
+  }
+}
