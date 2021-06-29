@@ -1,3 +1,6 @@
 <template>
-  <h1>トップページ</h1>
+  <div class="page-content">
+    <h1>トップページ</h1>
+    <div>こっちが見れたらVueのindex参照してる</div>
+  </div>
 </template>

@@ -4,7 +4,9 @@
   "description": "Vue.jsを用いたポートフォリオ",
   "main": "index.js",
   "scripts": {
-    "dev": "PROFILE=local nuxt"
+    "dev": "PROFILE=local nuxt",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/mk-0929/portfolio_vue#readme",
   "dependencies": {
     "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
   }
 }
